@@ -30,7 +30,7 @@ namespace MaxProductCalculator
                 }
             }
 
-            var maxProductCalculator = new MaxProductCalculator(new ArraysInitializer());
+            var maxProductCalculator = new MaxProductCalculator(new ArraysInitializer(), 3);
             long maxProduct = maxProductCalculator.FindMaxProduct(inputArray);
 
             Console.WriteLine($"Max product of three numbers from input is {maxProduct}.");

@@ -4,7 +4,7 @@ namespace MaxProductCalculator
 {
     internal class ArraysInitializer : IArraysInitializer
     {
-        public void InitArrays(int[] posMax, int[] negMax, int[] negMin, int[] arr, out int positiveNumbers)
+        public void InitArrays(int[] posMax, int[] negMax, int[] negMin, int[] arr, int numberOfElementsInProduct, out int positiveNumbers)
         {
             InitIntArrayWithMinValues(negMin);
             positiveNumbers = 0;

@@ -2,6 +2,6 @@
 {
     internal interface IArraysInitializer
     {
-        void InitArrays(int[] posMax, int[] negMax, int[] negMin, int[] arr, out int positiveNumbers);
+        void InitArrays(int[] posMax, int[] negMax, int[] negMin, int[] arr, int numberOfElementsInProduct, out int positiveNumbers);
     }
 }
